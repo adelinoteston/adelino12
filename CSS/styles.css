@@ -41,7 +41,32 @@ p{
     text-decoration: none;
     margin:auto;
     border: 2px solid #1c6ea4
+}
+.btn {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 15px 20 px;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px;
+    border-radius: 15px;
+    display: block;
+    width: 100px;
 
+}
 
+.btn:hover {
+    background-color: aliceblue;
+    color: azure;
+    transition: 0.5s;
+}
 
+.btn::first-letter {
+    color: tomato
+}
+.btn:active {
+    background-color: red;
 }
